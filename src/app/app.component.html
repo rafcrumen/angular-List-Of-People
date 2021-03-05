@@ -22,7 +22,7 @@
 						<tr *ngFor='let person of people; let i = index'>
 							<td width="2%">{{i+1}}</td>
 							<td width="8%">
-								<button class="btn btn-primary" (click)="delete(person)">
+								<button  title="Delete" class="btn btn-primary" (click)="delete(person)">
                         <span class="glyphicon glyphicon-trash"></span>
                 </button>
 							</td>
